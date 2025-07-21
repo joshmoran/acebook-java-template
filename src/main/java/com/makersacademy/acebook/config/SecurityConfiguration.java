@@ -23,9 +23,9 @@ import static org.springframework.security.config.Customizer.withDefaults;
 @EnableWebSecurity
 public class SecurityConfiguration {
 
-    @Value("${okta.oauth2.issuer}")
+    @Value("https://dev-re5zksgc65wjgy57.us.auth0.com")
     private String issuer;
-    @Value("${okta.oauth2.client-id}")
+    @Value("pFny3ZwRWMKsoqgDFzkd6DwRrPue3cQ3")
     private String clientId;
 
     @Bean
